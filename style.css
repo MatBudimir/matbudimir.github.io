@@ -1,4 +1,103 @@
-h1 {
-    color: orange;
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #201111;
+}
+header {
+    background-color: #561C24;
+    color: #E8D8C4;
+    padding: 1rem 0;
     text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+nav a {
+    color: #d4d4d4;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 1600px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;;
+    margin-bottom: 0.5em;
+}
+.gallery2 img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 0.5em;
+}
+.gallery3 img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+.gallery3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 0.5em;
+}
+.gallery4 img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+.gallery4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: #561C24;
+    color: #E8D8C4;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 4rem;
+}
+hr {
+    height:3px;
+    border-width:0;
+    color:#201111;
+    background-color:#201111;
+    width:50%"
 }
