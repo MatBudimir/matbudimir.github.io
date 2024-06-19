@@ -1,22 +1,31 @@
 @font-face {
-    font-family: TitleFont;
-    src: url(sansation_light.woff);
-  }
+    font-family: myFont;
+    src: url(fonts/CrossedOut.ttf);
+   } 
 
-body {
-    font-family: TitleFont;
+   body {
+    font-family: myFont;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;  
     margin: 0;
     padding: 0;
-    background-color: #201111;
+    background-color: #222831;
 }
 header {
-    background-color: #561C24;
-    color: #E8D8C4;
+    background-color: #000000;
+    color: #EEEEEE;
     padding: 1rem 0;
     text-align: center;
 }
 header h1 {
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
     text-align: center;
@@ -93,11 +102,12 @@ nav a:hover {
 }
 
 footer {
-    background-color: #561C24;
-    color: #E8D8C4;
+    background-color: #000000;
+    color: #EEEEEE;
     text-align: center;
     padding: 1rem 0;
-    margin-top: 4rem;
+    margin-top: 0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 hr {
     height:3px;
@@ -105,4 +115,42 @@ hr {
     color:#201111;
     background-color:#201111;
     width:50%"
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+.banner a {
+    display: block;
+    text-decoration: none;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 5rem;
+    padding: 5rem 0;
+    background-size: cover;
+    background-position: center;
+    margin: 0rem 0;
+    border-radius: 10px;
+    transition: 1.3s ease;
+}
+.illustration {
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("img/illu/matej-budimir-mat-round2-03.jpg")
+}
+.illustration:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/illu/matej-budimir-mat-round2-03.jpg")
+}
+.concept-art {
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("img/ca/matej-budimir-first2.jpg");
+}
+.concept-art:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/ca/matej-budimir-first2.jpg");
+}
+.game-design {
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("img/gd/matej-budimir-mgc-cover.png");
+}
+.game-design:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/gd/matej-budimir-mgc-cover.png");
+}
+.other {
+    background-image: url("img\ca\matej-budimir-concept2.jpg");
 }
