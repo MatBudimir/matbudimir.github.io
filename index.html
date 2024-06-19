@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matej Budimir - Home</title>
     <style>
-        body {
-            font-family: Tahoma, sans-serif;
+
+   @font-face {
+    font-family: myFont;
+    src: url(fonts/CrossedOut.ttf);
+   } 
+
+  body {
+            font-family: myFont;
+            text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
             margin: 0;
             padding: 0;
-            background-color: #201111;
+            background-color: #393E46;
         }
         header {
-            background-color: #561C24;
-            color: #E8D8C4;
+            background-color: #222831;
+            color: #EEEEEE;
             padding: 1rem 0;
             text-align: center;
         }
         header h1 {
             margin: 0;
         }
+        h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
         .banner {
             display: flex;
             flex-direction: column;
@@ -27,34 +42,33 @@
         .banner a {
             display: block;
             text-decoration: none;
-            color: #E8D8C4;
+            color: #EEEEEE;
             text-align: center;
-            font-size: 2rem;
-            font-weight: bold;
+            font-size: 5rem;
             padding: 5rem 0;
             background-size: cover;
             background-position: center;
-            margin: 1rem 0;
+            margin: 0rem 0;
             border-radius: 10px;
         }
         .illustration {
-            background-image: url('path/to/illustration-banner.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/illu/matej-budimir-mat-round2-03.jpg")
         }
         .concept-art {
-            background-image: url('path/to/concept-art-banner.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/ca/matej-budimir-first2.jpg");
         }
         .game-design {
-            background-image: url('path/to/game-design-banner.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/gd/matej-budimir-mgc-cover.png");
         }
         .other {
-            background-image: url('path/to/other-banner.jpg');
+            background-image: url("img\ca\matej-budimir-concept2.jpg");
         }
         footer {
-            background-color: #561C24;
-            color: #E8D8C4;
+            background-color: #222831;
+            color: #EEEEEE;
             text-align: center;
             padding: 1rem 0;
-            margin-top: 4rem;
+            margin-top: 0rem;
         }
     </style>
 </head>
@@ -67,7 +81,6 @@
         <a href="illustration.html" class="illustration">Illustration</a>
         <a href="concept-art.html" class="concept-art">Concept Art</a>
         <a href="game-design.html" class="game-design">Game Design</a>
-        <a href="other.html" class="other">Other</a>
     </div>
     <footer>
         <p>&copy; 2024 Matej Budimir. All Rights Reserved.</p>

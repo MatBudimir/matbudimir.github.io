@@ -1,5 +1,10 @@
+@font-face {
+    font-family: TitleFont;
+    src: url(sansation_light.woff);
+  }
+
 body {
-    font-family: Tahoma, sans-serif;
+    font-family: TitleFont;
     margin: 0;
     padding: 0;
     background-color: #201111;
