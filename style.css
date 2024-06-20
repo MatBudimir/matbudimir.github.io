@@ -147,10 +147,10 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/ca/matej-budimir-first2.jpg");
 }
 .game-design {
-    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("(img/ca/3076658_Budimir_GateLevelLower.PNG");
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("img/gd/3076658_Budimir_GateLevelLower.PNG");
 }
 .game-design:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/ca/3076658_Budimir_GateLevelLower.PNG");
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("img/gd/3076658_Budimir_GateLevelLower.PNG");
 }
 .other {
     background-image: url("img\ca\matej-budimir-concept2.jpg");
