@@ -119,7 +119,7 @@ namespace Portfolio
         {
             if (img.classList.contains("expanded"))
             {
-                img.style.width = `${window.innerWidth * 0.055}%`;
+                img.style.width = `${window.innerWidth * 0.15}px`;
                 img.style.height = "auto";
                 img.classList.remove("expanded");
             } else
@@ -179,7 +179,7 @@ namespace Portfolio
             {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.055}%`;
+                img.style.width = `${window.innerWidth * 0.15}px`;
                 img.style.height = "auto";
 
                 toggleImageSize(img);
@@ -220,7 +220,7 @@ namespace Portfolio
             {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.056}%`;
+                img.style.width = `${window.innerWidth * 0.15}px`;
                 img.style.height = "auto";
 
                 toggleImageSize(img);
