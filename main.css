@@ -10,7 +10,7 @@
 #row3,
 #row4,
 #row5,
-#row6 {
+#row6{
     position: relative;
     width: 100%;
     height: fit-content;
@@ -124,9 +124,9 @@
     position: fixed;
     z-index: -2;
     width: 100%;
-    --s: 20px;
+    --s: 28px;
     --c1: #0e1410;
-    --c2: #000000;
+    --c2: #0e0f0c;
 
     --_g:
         var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%, var(--c1) 36% 44%,
@@ -139,9 +139,9 @@
 
 body {
     background-color: black;
-    --s: 20px;
+    --s: 28px;
     --c1: #0e1410;
-    --c2: #000000;
+    --c2: #0e0f0c;
 
     --_g:
         var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%, var(--c1) 36% 44%,
@@ -162,7 +162,7 @@ body {
 }
 
 #text-item {
-    padding: 12px;
+    padding: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
     background: rgba(35, 40, 35, 0.75);
@@ -209,7 +209,7 @@ img {
 }
 
 img:hover {
-    outline: 1px solid rgba(135, 140, 135, 0.5); 
+    outline: 1px solid rgba(135, 140, 135, 0.5);
     outline-offset: -1px;
 }
 
@@ -251,4 +251,42 @@ img:hover {
     border-width: 2px;
     margin-bottom: 15px;
 
+}
+
+#vid1,
+#vid3,
+#vid5{
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    align-self: left;
+    align-content: left;
+    right: 10%;
+    background-color: transparent;
+    top: 4%;
+    z-index: 2;
+    color: whitesmoke;
+    pointer-events:all;
+    border: none;
+}
+
+#vid2,
+#vid4,
+#vid6 {
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    align-self: left;
+    align-content: left;
+    width: 30%;
+    right: 60%;
+    height: fit-content;
+    background-color: transparent;
+    top: 4%;
+    z-index: 2;
+    color: whitesmoke;
 }
