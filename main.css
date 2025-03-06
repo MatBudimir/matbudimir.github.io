@@ -253,9 +253,8 @@ img:hover {
 
 }
 
-#vid1,
-#vid3,
-#vid5{
+
+iframe{
     margin-top: 15px;
     position: relative;
     display: grid;
@@ -263,30 +262,22 @@ img:hover {
     flex-direction: column;
     align-self: left;
     align-content: left;
-    right: 10%;
     background-color: transparent;
     top: 4%;
     z-index: 2;
-    color: whitesmoke;
     pointer-events:all;
     border: none;
+}
+
+#vid1,
+#vid3,
+#vid5{
+    right: 4.5%;
+    
 }
 
 #vid2,
 #vid4,
 #vid6 {
-    margin-top: 15px;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    flex-direction: column;
-    align-self: left;
-    align-content: left;
-    width: 30%;
-    right: 60%;
-    height: fit-content;
-    background-color: transparent;
-    top: 4%;
-    z-index: 2;
-    color: whitesmoke;
+    right: 65.5%;
 }

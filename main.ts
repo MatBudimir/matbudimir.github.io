@@ -1,9 +1,7 @@
-namespace Portfolio
-{
+namespace Portfolio {
     window.addEventListener("load", load);
 
-    function load()
-    {
+    function load() {
         const body: HTMLElement = document.querySelector("body")!;
 
         // Create Header HTMLElements
@@ -112,8 +110,8 @@ namespace Portfolio
         const vid6 = document.createElement("iframe");
         vid1.id = "vid1"
         vid1.src = "https://www.youtube.com/embed/GeFujoNXXk4"
-        vid1.style.width = `${innerWidth * 0.3}px`;
-        vid1.style.height = `${innerWidth * 0.165}px`;
+        vid1.style.width = `${innerWidth * 0.4}px`;
+        vid1.style.height = `${innerWidth * 0.22}px`;
         vid2.id = "vid2"
         vid3.id = "vid3"
         vid4.id = "vid4"
@@ -146,19 +144,15 @@ namespace Portfolio
         createTimelineInfo();
     }
 
-    function toggleImageSize(img: HTMLImageElement)
-    {
+    function toggleImageSize(img: HTMLImageElement) {
         img.addEventListener("click", toggleImg);
 
-        function toggleImg()
-        {
-            if (img.classList.contains("expanded"))
-            {
+        function toggleImg() {
+            if (img.classList.contains("expanded")) {
                 img.style.width = `${window.innerWidth * 0.15}px`;
                 img.style.height = "auto";
                 img.classList.remove("expanded");
-            } else
-            {
+            } else {
                 img.style.width = `${window.innerWidth * 0.45}px`;
                 img.style.height = "auto";
                 img.classList.add("expanded");
@@ -166,8 +160,7 @@ namespace Portfolio
         };
     }
 
-    function drawTimeline()
-    {
+    function drawTimeline() {
         const canvas: HTMLCanvasElement = document.querySelector("canvas")!;
         const ctx: CanvasRenderingContext2D = canvas.getContext("2d")!;
         ctx.canvas.width = window.innerWidth;
@@ -181,8 +174,7 @@ namespace Portfolio
         ctx.stroke();
     }
 
-    function createTimelineInfo()
-    {
+    function createTimelineInfo() {
 
 
         // Timeline objects
@@ -196,22 +188,20 @@ namespace Portfolio
             new Portfolio.TimelineObj("Image", "", "img/matej-budimir-skeleton-preview.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/blood_preview.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/matej-budimir-monster-preview.jpg"),
+            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
         ];
 
-        for (let obj of guideObjects)
-        {
+        for (let obj of guideObjects) {
             const colLeft = document.getElementById("col_left")!;
             const colRight = document.getElementById("col_right")!;
             const contentContainer = document.createElement("div");
             contentContainer.className = "timeline-item visible";
-            if (obj.type === "Text")
-            {
+            if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 colLeft.appendChild(contentContainer);
 
-            } else if (obj.type === "Image")
-            {
+            } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
                 img.style.width = `${window.innerWidth * 0.15}px`;
@@ -221,7 +211,7 @@ namespace Portfolio
 
                 contentContainer.appendChild(img);
                 colRight.appendChild(contentContainer);
-            }
+            } 
             obj.element = contentContainer;
         }
 
@@ -240,19 +230,16 @@ namespace Portfolio
             new Portfolio.TimelineObj("Image", "", "img/unseen_7.png"),
         ];
 
-        for (let obj of unseenObjects)
-        {
+        for (let obj of unseenObjects) {
             const colLeft = document.getElementById("col_left2")!;
             const colRight = document.getElementById("col_right2")!;
             const contentContainer = document.createElement("div");
             contentContainer.className = "timeline-item visible";
-            if (obj.type === "Text")
-            {
+            if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 colRight.appendChild(contentContainer);
-            } else if (obj.type === "Image")
-            {
+            } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
                 img.style.width = `${window.innerWidth * 0.15}px`;
@@ -285,19 +272,16 @@ namespace Portfolio
             new Portfolio.TimelineObj("Image", "", "img/d12.png"),
         ];
 
-        for (let obj of deadObjects)
-        {
+        for (let obj of deadObjects) {
             const colLeft = document.getElementById("col_left3")!;
             const colRight = document.getElementById("col_right3")!;
             const contentContainer = document.createElement("div");
             contentContainer.className = "timeline-item visible";
-            if (obj.type === "Text")
-            {
+            if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 colLeft.appendChild(contentContainer);
-            } else if (obj.type === "Image")
-            {
+            } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
                 img.style.width = `${window.innerWidth * 0.15}px`;
@@ -321,19 +305,16 @@ namespace Portfolio
             new Portfolio.TimelineObj("Image", "", "img/tea2.png"),
         ];
 
-        for (let obj of symphoObjects)
-        {
+        for (let obj of symphoObjects) {
             const colLeft = document.getElementById("col_left4")!;
             const colRight = document.getElementById("col_right4")!;
             const contentContainer = document.createElement("div");
             contentContainer.className = "timeline-item visible";
-            if (obj.type === "Text")
-            {
+            if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 colRight.appendChild(contentContainer);
-            } else if (obj.type === "Image")
-            {
+            } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
                 img.style.width = `${window.innerWidth * 0.15}px`;
@@ -360,19 +341,16 @@ namespace Portfolio
 
         ];
 
-        for (let obj of egyptObjects)
-        {
+        for (let obj of egyptObjects) {
             const colLeft = document.getElementById("col_left5")!;
             const colRight = document.getElementById("col_right5")!;
             const contentContainer = document.createElement("div");
             contentContainer.className = "timeline-item visible";
-            if (obj.type === "Text")
-            {
+            if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 colLeft.appendChild(contentContainer);
-            } else if (obj.type === "Image")
-            {
+            } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
                 img.style.width = `${window.innerWidth * 0.15}px`;
@@ -395,19 +373,16 @@ namespace Portfolio
             new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
         ];
 
-        for (let obj of p3Objects)
-        {
+        for (let obj of p3Objects) {
             const colLeft = document.getElementById("col_left6")!;
             const colRight = document.getElementById("col_right6")!;
             const contentContainer = document.createElement("div");
             contentContainer.className = "timeline-item visible";
-            if (obj.type === "Text")
-            {
+            if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 colRight.appendChild(contentContainer);
-            } else if (obj.type === "Image")
-            {
+            } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
                 img.style.width = `${window.innerWidth * 0.15}px`;
@@ -423,12 +398,10 @@ namespace Portfolio
 
         window.addEventListener("scroll", fade);
 
-        function fade()
-        {
+        function fade() {
             const allObjects = [...guideObjects, ...unseenObjects, ...deadObjects, ...symphoObjects, ...egyptObjects, ...p3Objects];
 
-            for (const obj of allObjects)
-            {
+            for (const obj of allObjects) {
                 const rect = obj.element.getBoundingClientRect();
                 const isVisible = rect.top >= -window.innerHeight / 5 && rect.bottom <= window.innerHeight;
 

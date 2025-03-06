@@ -99,8 +99,8 @@ var Portfolio;
         const vid6 = document.createElement("iframe");
         vid1.id = "vid1";
         vid1.src = "https://www.youtube.com/embed/GeFujoNXXk4";
-        vid1.style.width = `${innerWidth * 0.3}px`;
-        vid1.style.height = `${innerWidth * 0.165}px`;
+        vid1.style.width = `${innerWidth * 0.4}px`;
+        vid1.style.height = `${innerWidth * 0.22}px`;
         vid2.id = "vid2";
         vid3.id = "vid3";
         vid4.id = "vid4";
@@ -169,6 +169,7 @@ var Portfolio;
             new Portfolio.TimelineObj("Image", "", "img/matej-budimir-skeleton-preview.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/blood_preview.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/matej-budimir-monster-preview.jpg"),
+            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
         ];
         for (let obj of guideObjects) {
             const colLeft = document.getElementById("col_left");
