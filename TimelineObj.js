@@ -2,10 +2,12 @@
 var Portfolio;
 (function (Portfolio) {
     class TimelineObj {
-        constructor(_type, _text, _img) {
+        constructor(_type, _text, _img, _skill, _tool) {
             this.type = _type;
             this.text = _text;
             this.img = _img;
+            this.skill = _skill;
+            this.tool = _tool;
             if (_type === "Text" || _type === "Image") {
                 this.element = document.createElement("div");
             }

@@ -162,7 +162,10 @@ var Portfolio;
         let guideObjects = [
             new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses", ""),
             new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses offers players and Dungeon Masters the option to play as various cursed creatures from pop culture and Dungeons & Dragons lore. It also features a new original race: the Ashen. More than just providing stats and numbers, this book also expands on the theme of some of these creatures and adds character options that are thematically appropriate. Dungeon Masters also get evil monsters to use, that not only expand on the cursed creatures, but also add inspiration for adventures and stories.", ""),
-            new Portfolio.TimelineObj("Text", "Game Design, 2D Art, Writing", ""),
+            new Portfolio.TimelineObj("Text", "Game Design", "", true),
+            new Portfolio.TimelineObj("Text", "2D Art", "", true),
+            new Portfolio.TimelineObj("Text", "Narrative Writing", "", true),
+            new Portfolio.TimelineObj("Text", "Photoshop", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/Guide_to_Curses_Cover.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/matej-budimir-ashen-preview.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/medusa_preview.JPG"),
@@ -179,6 +182,12 @@ var Portfolio;
             if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
+                if (obj.skill === true) {
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                }
+                if (obj.tool === true) {
+                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                }
                 colLeft.appendChild(contentContainer);
             }
             else if (obj.type === "Image") {
@@ -195,7 +204,11 @@ var Portfolio;
         let unseenObjects = [
             new Portfolio.TimelineObj("Text", "Unseen", ""),
             new Portfolio.TimelineObj("Text", "Unseen is a 2D platformer set in a plague ridden Prague in 1349, with horror elements in which you have to collect eyes to increase your radius of vision and to see hidden things in the world. Special eyes change your perception of the world and let you see new and different things. The focus is on platforming, solving puzzles, and the story.", ""),
-            new Portfolio.TimelineObj("Text", "Game Design, 2D Art, C# Programming", ""),
+            new Portfolio.TimelineObj("Text", "Game Design", "", true),
+            new Portfolio.TimelineObj("Text", "2D Art & Animation", "", true),
+            new Portfolio.TimelineObj("Text", "C# Programming", "", true),
+            new Portfolio.TimelineObj("Text", "Unity", "", false, true),
+            new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/unseen_0.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_2.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_11.png"),
@@ -214,6 +227,12 @@ var Portfolio;
             if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
+                if (obj.skill === true) {
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                }
+                if (obj.tool === true) {
+                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                }
                 colRight.appendChild(contentContainer);
             }
             else if (obj.type === "Image") {
@@ -230,7 +249,10 @@ var Portfolio;
         let deadObjects = [
             new Portfolio.TimelineObj("Text", "Dead Man's Call", ""),
             new Portfolio.TimelineObj("Text", "Dead Man's Call is a first-person narrative puzzle game set in the far future. The game takes place in the spaceship “Nightlight” crewed by three suspicious individuals. The aim is to find out what happened to the captain and his medical robot, H3A1_TH, from whom you received a distress call. To solve the mystery the player must explore the spaceship and complete puzzles to gather clues and find keys which help them solve the case.", ""),
-            new Portfolio.TimelineObj("Text", "Game Design, Concept Art, UE5", ""),
+            new Portfolio.TimelineObj("Text", "Level Design", "", true),
+            new Portfolio.TimelineObj("Text", "Concept Art", "", true),
+            new Portfolio.TimelineObj("Text", "Blueprint Programming", "", true),
+            new Portfolio.TimelineObj("Text", "Unreal Engine 5", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/d2.png"),
             new Portfolio.TimelineObj("Image", "", "img/d1.png"),
             new Portfolio.TimelineObj("Image", "", "img/d3.png"),
@@ -252,6 +274,12 @@ var Portfolio;
             if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
+                if (obj.skill === true) {
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                }
+                if (obj.tool === true) {
+                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                }
                 colLeft.appendChild(contentContainer);
             }
             else if (obj.type === "Image") {
@@ -268,7 +296,8 @@ var Portfolio;
         let symphoObjects = [
             new Portfolio.TimelineObj("Text", "SymphoTea", ""),
             new Portfolio.TimelineObj("Text", "SymphoTea is a game about deciding which social bubble each customer belongs to. This can be found out by listening to their inner part of a symphony and their persona. This way you can serve them the perfect match bubble tea.", ""),
-            new Portfolio.TimelineObj("Text", "2D Art", ""),
+            new Portfolio.TimelineObj("Text", "2D Art", "", true),
+            new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/tea3.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/tea1.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea2.png"),
@@ -281,6 +310,12 @@ var Portfolio;
             if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
+                if (obj.skill === true) {
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                }
+                if (obj.tool === true) {
+                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                }
                 colRight.appendChild(contentContainer);
             }
             else if (obj.type === "Image") {
@@ -297,7 +332,10 @@ var Portfolio;
         let egyptObjects = [
             new Portfolio.TimelineObj("Text", "Fall of Egypt: The Last City", ""),
             new Portfolio.TimelineObj("Text", "Fall of Egypt: The Last City is a Cooperative city-builder during a zombie apocalypse in a snow covered, ancient Egypt, where players, who take control of unique factions, have to work together to find a way to end the zombie onslaught before their city dies out.", ""),
-            new Portfolio.TimelineObj("Text", "Lead Game Design, 2D Art", ""),
+            new Portfolio.TimelineObj("Text", "Lead Game Design", "", true),
+            new Portfolio.TimelineObj("Text", "2D Art", "", true),
+            new Portfolio.TimelineObj("Text", "Narrative Design", "", true),
+            new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/e1.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/e4.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/e3.JPG"),
@@ -313,6 +351,12 @@ var Portfolio;
             if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
+                if (obj.skill === true) {
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                }
+                if (obj.tool === true) {
+                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                }
                 colLeft.appendChild(contentContainer);
             }
             else if (obj.type === "Image") {
@@ -329,7 +373,8 @@ var Portfolio;
         let p3Objects = [
             new Portfolio.TimelineObj("Text", "Project 3", ""),
             new Portfolio.TimelineObj("Text", "Coming soon...", ""),
-            new Portfolio.TimelineObj("Text", "Coming soon...", ""),
+            new Portfolio.TimelineObj("Text", "Coming soon...", "", true),
+            new Portfolio.TimelineObj("Text", "Coming soon...", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
@@ -342,6 +387,12 @@ var Portfolio;
             if (obj.type === "Text") {
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
+                if (obj.skill === true) {
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                }
+                if (obj.tool === true) {
+                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                }
                 colRight.appendChild(contentContainer);
             }
             else if (obj.type === "Image") {

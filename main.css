@@ -124,9 +124,9 @@
     position: fixed;
     z-index: -2;
     width: 100%;
-    --s: 28px;
-    --c1: #0e1410;
-    --c2: #0e0f0c;
+    --s: 32px;
+    --c1: #0b140f;
+    --c2: #0b0c0a;
 
     --_g:
         var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%, var(--c1) 36% 44%,
@@ -139,10 +139,9 @@
 
 body {
     background-color: black;
-    --s: 28px;
-    --c1: #0e1410;
-    --c2: #0e0f0c;
-
+    --s: 32px;
+    --c1: #0b140f;
+    --c2: #0b0c0a;
     --_g:
         var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%, var(--c1) 36% 44%,
         var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%, var(--c1) 76% 84%, var(--c2) 86% 94%;
@@ -162,18 +161,18 @@ body {
 }
 
 #text-item {
+    background: rgba(35, 40, 35, 0.75);
     padding: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background: rgba(35, 40, 35, 0.75);
     border-radius: 8px;
     box-shadow: 4px 6px black;
     border-style: solid;
     border-color: rgba(135, 140, 135, 0.15);
     border-width: 1px;
     margin-bottom: 15px;
+    pointer-events:all;
 }
-
 
 .hidden {
     opacity: 0;
