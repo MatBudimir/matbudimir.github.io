@@ -124,8 +124,8 @@
     position: fixed;
     z-index: -2;
     width: 100%;
-    --s: 32px;
-    --c1: #0b140f;
+    --s: 22px;
+    --c1: #060807;
     --c2: #0b0c0a;
 
     --_g:
@@ -139,8 +139,8 @@
 
 body {
     background-color: black;
-    --s: 32px;
-    --c1: #0b140f;
+    --s: 22px;
+    --c1: #060807;
     --c2: #0b0c0a;
     --_g:
         var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%, var(--c1) 36% 44%,
@@ -242,11 +242,11 @@ img:hover {
     padding: 12px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background: rgba(25, 30, 25, 1);
+    background: rgba(22, 35, 25, 1);
     border-radius: 8px;
     box-shadow: 4px 6px black;
     border-style: solid;
-    border-color: rgba(135, 140, 135, 0.25);
+    border-color: rgba(135, 160, 135, 0.2);
     border-width: 2px;
     margin-bottom: 15px;
 
