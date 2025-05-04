@@ -57,12 +57,14 @@ namespace Portfolio {
         const row4 = document.createElement("div");
         const row5 = document.createElement("div");
         const row6 = document.createElement("div");
+        const row7 = document.createElement("div");
         row1.id = "row1";
         row2.id = "row2";
         row3.id = "row3";
         row4.id = "row4";
         row5.id = "row5";
         row6.id = "row6";
+        row7.id = "row7";
 
         const col1 = document.createElement("div");
         const col2 = document.createElement("div");
@@ -76,6 +78,8 @@ namespace Portfolio {
         const col10 = document.createElement("div");
         const col11 = document.createElement("div");
         const col12 = document.createElement("div");
+        const col13 = document.createElement("div");
+        const col14 = document.createElement("div");
         col1.id = "col_left";
         col2.id = "col_right";
         col3.id = "col_left2";
@@ -88,6 +92,8 @@ namespace Portfolio {
         col10.id = "col_right5";
         col11.id = "col_left6";
         col12.id = "col_right6";
+        col13.id = "col_left7";
+        col14.id = "col_right7";
 
         const vidRow1 = document.createElement("div");
         const vidRow2 = document.createElement("div");
@@ -95,12 +101,14 @@ namespace Portfolio {
         const vidRow4 = document.createElement("div");
         const vidRow5 = document.createElement("div");
         const vidRow6 = document.createElement("div");
+        const vidRow7 = document.createElement("div");
         vidRow1.id = "row1"
         vidRow2.id = "row2"
         vidRow3.id = "row3"
         vidRow4.id = "row4"
         vidRow5.id = "row5"
         vidRow6.id = "row6"
+        vidRow7.id = "row7"
 
         const vid1 = document.createElement("iframe");
         const vid2 = document.createElement("iframe");
@@ -108,6 +116,7 @@ namespace Portfolio {
         const vid4 = document.createElement("iframe");
         const vid5 = document.createElement("iframe");
         const vid6 = document.createElement("iframe");
+        const vid7 = document.createElement("iframe");
         vid1.id = "vid1"
         vid1.src = "https://www.youtube.com/embed/GeFujoNXXk4"
         vid1.style.width = `${innerWidth * 0.4}px`;
@@ -117,9 +126,10 @@ namespace Portfolio {
         vid4.id = "vid4"
         vid5.id = "vid5"
         vid6.id = "vid6"
+        vid7.id = "vid7"
 
         body.append(timeline);
-        timeline.append(canvas, container2019, row1, vidRow1, container2023, row2, vidRow2, container2024, row3, vidRow3, container2025, row4, vidRow4, row5, vidRow5, row6, vidRow6);
+        timeline.append(canvas, container2019, row1, vidRow1, container2023, row2, vidRow2, container2024, row3, vidRow3, container2025, row4, vidRow4, row5, vidRow5, row6, vidRow6, row7, vidRow7);
         container2019.append(year2019);
         container2023.append(year2023);
         container2024.append(year2024);
@@ -130,12 +140,14 @@ namespace Portfolio {
         row4.append(col7, col8);
         row5.append(col9, col10);
         row6.append(col11, col12);
+        row7.append(col13, col14);
         vidRow1.append(vid1);
         vidRow2.append(vid2);
         vidRow3.append(vid3);
         vidRow4.append(vid4);
         vidRow5.append(vid5);
         vidRow6.append(vid6);
+        vidRow7.append(vid7);
 
         // Draw Timeline on Canvas
         drawTimeline();
@@ -410,17 +422,23 @@ namespace Portfolio {
             obj.element = contentContainer;
         }
 
-        let p3Objects: Portfolio.TimelineObj[] = [
-            new Portfolio.TimelineObj("Text", "Project 3", ""),
-            new Portfolio.TimelineObj("Text", "Coming soon...", ""),
-            new Portfolio.TimelineObj("Text", "Coming soon...", "", true),
-            new Portfolio.TimelineObj("Text", "Coming soon...", "", false, true),
-            new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
-            new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
-            new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
+        let resonanceObjects: Portfolio.TimelineObj[] = [
+            new Portfolio.TimelineObj("Text", "Resonance", ""),
+            new Portfolio.TimelineObj("Text", "Resonance is a sound puzzle game in which the player has to listen to the sound of obstacles and recreate the sound using their sound orb by bouncing it off the environment in the correct combination.", ""),
+            new Portfolio.TimelineObj("Text", "Lead Game Design", "", true),
+            new Portfolio.TimelineObj("Text", "Level Design", "", true),
+            new Portfolio.TimelineObj("Text", "Blueprint Programming", "", true),
+            new Portfolio.TimelineObj("Text", "Unreal Engine 5", "", false, true),
+            new Portfolio.TimelineObj("Image", "", "img/6.png"),
+            new Portfolio.TimelineObj("Image", "", "img/1.png"),
+            new Portfolio.TimelineObj("Image", "", "img/3.png"),
+            new Portfolio.TimelineObj("Image", "", "img/4.png"),
+            new Portfolio.TimelineObj("Image", "", "img/7.png"),
+            new Portfolio.TimelineObj("Image", "", "img/8.png"),
         ];
 
-        for (let obj of p3Objects) {
+        for (let obj of resonanceObjects)
+        {
             const colLeft = document.getElementById("col_left6")!;
             const colRight = document.getElementById("col_right6")!;
             const contentContainer = document.createElement("div");
@@ -445,6 +463,45 @@ namespace Portfolio {
 
                 contentContainer.appendChild(img);
                 colLeft.appendChild(contentContainer);
+            }
+            obj.element = contentContainer;
+        }
+
+        let p3Objects: Portfolio.TimelineObj[] = [
+            new Portfolio.TimelineObj("Text", "Project 3", ""),
+            new Portfolio.TimelineObj("Text", "Coming soon...", ""),
+            new Portfolio.TimelineObj("Text", "Coming soon...", "", true),
+            new Portfolio.TimelineObj("Text", "Coming soon...", "", false, true),
+            new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
+        ];
+
+        for (let obj of p3Objects) {
+            const colLeft = document.getElementById("col_left7")!;
+            const colRight = document.getElementById("col_right7")!;
+            const contentContainer = document.createElement("div");
+            contentContainer.className = "timeline-item visible";
+            if (obj.type === "Text") {
+                contentContainer.innerText = obj.text;
+                contentContainer.id = "text-item";
+                if (obj.skill === true){
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)" ;
+                }
+                if (obj.tool === true){
+                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)" ;
+                }
+                colLeft.appendChild(contentContainer);
+            } else if (obj.type === "Image") {
+                const img = document.createElement("img");
+                img.src = obj.img;
+                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.height = "auto";
+
+                toggleImageSize(img);
+
+                contentContainer.appendChild(img);
+                colRight.appendChild(contentContainer);
             }
             obj.element = contentContainer;
         }

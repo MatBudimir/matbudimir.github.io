@@ -10,7 +10,8 @@
 #row3,
 #row4,
 #row5,
-#row6{
+#row6,
+#row7{
     position: relative;
     width: 100%;
     height: fit-content;
@@ -22,7 +23,8 @@
 
 #col_left,
 #col_left3,
-#col_left5 {
+#col_left5,
+#col_left7 {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -59,7 +61,8 @@
 
 #col_right,
 #col_right3,
-#col_right5 {
+#col_right5,
+#col_right7 {
     margin-top: 15px;
     position: relative;
     display: grid;
@@ -270,7 +273,8 @@ iframe{
 
 #vid1,
 #vid3,
-#vid5{
+#vid5,
+#vid7{
     right: 4.5%;
     
 }
