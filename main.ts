@@ -118,15 +118,33 @@ namespace Portfolio {
         const vid6 = document.createElement("iframe");
         const vid7 = document.createElement("iframe");
         vid1.id = "vid1"
-        vid1.src = "https://www.youtube.com/embed/GeFujoNXXk4"
+        vid1.src = "https://www.youtube.com/embed/GeFujoNXXk4";
         vid1.style.width = `${innerWidth * 0.4}px`;
         vid1.style.height = `${innerWidth * 0.22}px`;
         vid2.id = "vid2"
+        vid2.src = "https://www.youtube.com/embed/ZoC-6GQcf30";
+        vid2.style.width = `${innerWidth * 0.4}px`;
+        vid2.style.height = `${innerWidth * 0.22}px`;
         vid3.id = "vid3"
+        vid3.src = "https://www.youtube.com/embed/3yir6aBrSkw";
+        vid3.style.width = `${innerWidth * 0.4}px`;
+        vid3.style.height = `${innerWidth * 0.22}px`;
         vid4.id = "vid4"
+        vid4.src = ""
+        vid4.style.width = `${innerWidth * 0.4}px`;
+        vid4.style.height = `${innerWidth * 0.22}px`;
         vid5.id = "vid5"
+        vid5.src = ""
+        vid5.style.width = `${innerWidth * 0.4}px`;
+        vid5.style.height = `${innerWidth * 0.22}px`;
         vid6.id = "vid6"
+        vid6.src = ""
+        vid6.style.width = `${innerWidth * 0.4}px`;
+        vid6.style.height = `${innerWidth * 0.22}px`;
         vid7.id = "vid7"
+        vid7.src = ""
+        vid7.style.width = `${innerWidth * 0.4}px`;
+        vid7.style.height = `${innerWidth * 0.22}px`;
 
         body.append(timeline);
         timeline.append(canvas, container2019, row1, vidRow1, container2023, row2, vidRow2, container2024, row3, vidRow3, container2025, row4, vidRow4, row5, vidRow5, row6, vidRow6, row7, vidRow7);
@@ -254,6 +272,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/unseen_8.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_9.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_7.png"),
+             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/ZoC-6GQcf30"),
         ];
 
         for (let obj of unseenObjects) {
@@ -305,6 +324,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/d10.png"),
             new Portfolio.TimelineObj("Image", "", "img/d11.png"),
             new Portfolio.TimelineObj("Image", "", "img/d12.png"),
+            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/3yir6aBrSkw"),
         ];
 
         for (let obj of deadObjects) {
@@ -346,6 +366,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/tea3.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/tea1.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea2.png"),
+             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
         ];
 
         for (let obj of symphoObjects) {
@@ -390,6 +411,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/e0.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/e5.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/e2.JPG"),
+             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
 
         ];
 
@@ -435,6 +457,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/4.png"),
             new Portfolio.TimelineObj("Image", "", "img/7.png"),
             new Portfolio.TimelineObj("Image", "", "img/8.png"),
+             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
         ];
 
         for (let obj of resonanceObjects)
@@ -477,6 +500,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/Mockup.png"),
             new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
+            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
         ];
 
         for (let obj of p3Objects) {
