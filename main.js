@@ -127,7 +127,7 @@ var Portfolio;
         vid5.style.width = `${innerWidth * 0.4}px`;
         vid5.style.height = `${innerWidth * 0.22}px`;
         vid6.id = "vid6";
-        vid6.src = "";
+        vid6.src = "https://www.youtube.com/embed/sXS_kBqfG6o";
         vid6.style.width = `${innerWidth * 0.4}px`;
         vid6.style.height = `${innerWidth * 0.22}px`;
         vid7.id = "vid7";
@@ -417,7 +417,7 @@ var Portfolio;
             new Portfolio.TimelineObj("Image", "", "img/4.png"),
             new Portfolio.TimelineObj("Image", "", "img/7.png"),
             new Portfolio.TimelineObj("Image", "", "img/8.png"),
-            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
+            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/sXS_kBqfG6o"),
         ];
         for (let obj of resonanceObjects) {
             const colLeft = document.getElementById("col_left6");
