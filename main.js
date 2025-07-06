@@ -331,7 +331,10 @@ var Portfolio;
             new Portfolio.TimelineObj("Text", "2D Art", "", true),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/tea3.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/tea4.png"),
+            new Portfolio.TimelineObj("Image", "", "img/tea5.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea1.png"),
+            new Portfolio.TimelineObj("Image", "", "img/tea6.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea2.png"),
             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/tjHG_9CtPx0"),
         ];
