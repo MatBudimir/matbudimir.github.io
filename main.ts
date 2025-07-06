@@ -130,11 +130,11 @@ namespace Portfolio {
         vid3.style.width = `${innerWidth * 0.4}px`;
         vid3.style.height = `${innerWidth * 0.22}px`;
         vid4.id = "vid4"
-        vid4.src = ""
+        vid4.src = "https://www.youtube.com/embed/tjHG_9CtPx0"
         vid4.style.width = `${innerWidth * 0.4}px`;
         vid4.style.height = `${innerWidth * 0.22}px`;
         vid5.id = "vid5"
-        vid5.src = ""
+        vid5.src = "https://www.youtube.com/embed/o_HRBv0w6kY"
         vid5.style.width = `${innerWidth * 0.4}px`;
         vid5.style.height = `${innerWidth * 0.22}px`;
         vid6.id = "vid6"
@@ -366,7 +366,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/tea3.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/tea1.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea2.png"),
-             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
+             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/tjHG_9CtPx0"),
         ];
 
         for (let obj of symphoObjects) {
@@ -411,7 +411,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/e0.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/e5.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/e2.JPG"),
-             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
+             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/o_HRBv0w6kY"),
 
         ];
 
