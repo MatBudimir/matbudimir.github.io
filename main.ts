@@ -500,9 +500,9 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Text", "2D Art", "", true),
             new Portfolio.TimelineObj("Text", "Project Management", "", true),
             new Portfolio.TimelineObj("Text", "Unity", "", false, true),
+            new Portfolio.TimelineObj("Image", "", "img/Prototype.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/Mockup.png"),
-            new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
-            new Portfolio.TimelineObj("Image", "", "img/null.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/Screenshot.png"),
             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
         ];
 
