@@ -454,6 +454,7 @@ var Portfolio;
             new Portfolio.TimelineObj("Text", "A dice-builder from hell. Collect souls, demons and more dice to fight the evil manifestations of the seven deadly sins. And always remember: if you are going through hell, keep going. Diceonomicon is a turn-based roguelike game with a focus on dicebuilding. To progress the players have to collect demon companions called Implings to fight for them, which they command using their bag of dice. The game takes place in a fantastical vibrant hell, inspired by ragtime, jazz and prohibition era America. It draws inspiration from different cultures and underworld representations.", ""),
             new Portfolio.TimelineObj("Text", "Game Design", "", true),
             new Portfolio.TimelineObj("Text", "2D Art", "", true),
+            new Portfolio.TimelineObj("Text", "C# Programming", "", true),
             new Portfolio.TimelineObj("Text", "Project Management", "", true),
             new Portfolio.TimelineObj("Text", "Unity", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/Prototype.jpg"),
