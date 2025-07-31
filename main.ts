@@ -142,7 +142,7 @@ namespace Portfolio {
         vid6.style.width = `${innerWidth * 0.4}px`;
         vid6.style.height = `${innerWidth * 0.22}px`;
         vid7.id = "vid7"
-        vid7.src = ""
+        vid7.src = "https://www.youtube.com/embed/avDXDpk1lAY"
         vid7.style.width = `${innerWidth * 0.4}px`;
         vid7.style.height = `${innerWidth * 0.22}px`;
 
@@ -504,7 +504,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/Prototype.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/Mockup.png"),
             new Portfolio.TimelineObj("Image", "", "img/Screenshot.png"),
-            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/GeFujoNXXk4"),
+            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/avDXDpk1lAY"),
         ];
 
         for (let obj of p3Objects) {
