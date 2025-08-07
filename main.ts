@@ -484,7 +484,7 @@ namespace Portfolio {
             } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
 
                 toggleImageSize(img);
