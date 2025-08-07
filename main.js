@@ -12,7 +12,7 @@ var Portfolio;
         const aboutme = document.createElement("div");
         aboutme.className = "header";
         aboutme.id = "descr";
-        aboutme.innerText = "Hello, I am Matej Budimir.";
+        aboutme.innerText = "Hello, I am Matej Budimir - A game design student and freelance artist. \nWelcome to my game dev portfolio! \n\nMy art portfolio can be viewed at www.matbudimir.com";
         const email = document.createElement("div");
         email.className = "header";
         email.id = "mail";
@@ -191,10 +191,10 @@ var Portfolio;
         // Timeline objects
         let guideObjects = [
             new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses", ""),
-            new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses offers players and Dungeon Masters the option to play as various cursed creatures from pop culture and Dungeons & Dragons lore. It also features a new original race: the Ashen. More than just providing stats and numbers, this book also expands on the theme of some of these creatures and adds character options that are thematically appropriate. Dungeon Masters also get evil monsters to use, that not only expand on the cursed creatures, but also add inspiration for adventures and stories.", ""),
-            new Portfolio.TimelineObj("Text", "Game Design", "", true),
-            new Portfolio.TimelineObj("Text", "2D Art", "", true),
-            new Portfolio.TimelineObj("Text", "Narrative Writing", "", true),
+            new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses offers players and Dungeon Masters the option to play as various cursed creatures from pop culture and Dungeons & Dragons lore. It also features a new original race: the Ashen. More than just providing stats and numbers, this book also expands on the theme of some of these creatures and adds character options that are thematically appropriate. Dungeon Masters also get monsters to use, that not only expand on the cursed creatures, but also add inspiration for adventures and stories. \n\n Ishavar's Guide to Curses was my first official foray into game design, and what ultimately got me interested in pursuing it as a career.", ""),
+            new Portfolio.TimelineObj("Text", "Game Design \n• Created stats for Races, Sub-classes, and Backgrounds\n• Created stat blocks for Monsters\n• Created special rules and roll tables for curses and blessings", "", true),
+            new Portfolio.TimelineObj("Text", "2D Art \n• Cover Illustration\n• Character and Monster Illustrations\n• 2D Background Environments", "", true),
+            new Portfolio.TimelineObj("Text", "Narrative Writing \n• Wrote narrative descriptions for cultures, features, and monsters\n• Wrote rule texts for features described in the book", "", true),
             new Portfolio.TimelineObj("Text", "Photoshop", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/Guide_to_Curses_Cover.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/matej-budimir-ashen-preview.jpg"),
@@ -233,10 +233,10 @@ var Portfolio;
         }
         let unseenObjects = [
             new Portfolio.TimelineObj("Text", "Unseen", ""),
-            new Portfolio.TimelineObj("Text", "Unseen is a 2D platformer set in a plague ridden Prague in 1349, with horror elements in which you have to collect eyes to increase your radius of vision and to see hidden things in the world. Special eyes change your perception of the world and let you see new and different things. The focus is on platforming, solving puzzles, and the story.", ""),
-            new Portfolio.TimelineObj("Text", "Game Design", "", true),
-            new Portfolio.TimelineObj("Text", "2D Art & Animation", "", true),
-            new Portfolio.TimelineObj("Text", "C# Programming", "", true),
+            new Portfolio.TimelineObj("Text", "Unseen is a 2D platformer set in a plague ridden Prague in 1349, with horror elements in which you have to collect eyes to increase your radius of vision and to see hidden things in the world. Special eyes change your perception of the world and let you see new and different things. The focus is on platforming, solving puzzles, and the story. \n\n Unseen was my first atempt at a digital video game prototype. I started work on it without any prior experience with game engines or programming.", ""),
+            new Portfolio.TimelineObj("Text", "Game Design \n• Designed the fundamental game mechanics: Player's raidus of visibility increasing with the number of basic eyes collected & special eyes which unlock previously hidden objects in the world", "", true),
+            new Portfolio.TimelineObj("Text", "2D Art & Animation \n• Painted 2D art assets \n• Painted animations for the character and enemies", "", true),
+            new Portfolio.TimelineObj("Text", "C# Programming \n• Learned basics of C# programming editing and modifying a 2D platforming template project for Unity", "", true),
             new Portfolio.TimelineObj("Text", "Unity", "", false, true),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/unseen_0.png"),
@@ -279,10 +279,11 @@ var Portfolio;
         }
         let deadObjects = [
             new Portfolio.TimelineObj("Text", "Dead Man's Call", ""),
-            new Portfolio.TimelineObj("Text", "Dead Man's Call is a first-person narrative puzzle game set in the far future. The game takes place in the spaceship “Nightlight” crewed by three suspicious individuals. The aim is to find out what happened to the captain and his medical robot, H3A1_TH, from whom you received a distress call. To solve the mystery the player must explore the spaceship and complete puzzles to gather clues and find keys which help them solve the case.", ""),
-            new Portfolio.TimelineObj("Text", "Level Design", "", true),
-            new Portfolio.TimelineObj("Text", "Concept Art", "", true),
-            new Portfolio.TimelineObj("Text", "Blueprint Programming", "", true),
+            new Portfolio.TimelineObj("Text", "Dead Man's Call is a first-person narrative puzzle game set in the far future. The game takes place in the spaceship “Nightlight” crewed by three suspicious individuals. The aim is to find out what happened to the captain and his medical robot, H3A1_TH, from whom you received a distress call. To solve the mystery the player must explore the spaceship and complete puzzles to gather clues and find keys which help them solve the case. \n\n Dead Man's Call was the first project we did at Furtwangen University as part of the Entry Project course. With a total of five team members we ventured into the shallow waters of Unreal Engine's blueprint system and applied agile work methods to create a playable prototype in two weeks", ""),
+            new Portfolio.TimelineObj("Text", "Level Design \n• I designed a general layout for the spaceship, starting with a rough blockout, which allowed for modular use of it's room\n• I kitbashed 3D assets provided to us to create an environment fitting our narrative needs", "", true),
+            new Portfolio.TimelineObj("Text", "Concept Art \n• I drew concept art for the spaceship enterior to find what kind of atmosphere we want the environment to have", "", true),
+            new Portfolio.TimelineObj("Text", "Blueprint Programming \n• I worked on several functions including: Button inputs and UI displays, FMOD and Sound implementation", "", true),
+            new Portfolio.TimelineObj("Text", "Sound \n• Composed an atmospheric ambient sound\n• Created and mixed various sounds part of the game, including: doors, pickups, and footsteps", "", true),
             new Portfolio.TimelineObj("Text", "Unreal Engine 5", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/d2.png"),
             new Portfolio.TimelineObj("Image", "", "img/d1.png"),
@@ -327,8 +328,8 @@ var Portfolio;
         }
         let symphoObjects = [
             new Portfolio.TimelineObj("Text", "SymphoTea", ""),
-            new Portfolio.TimelineObj("Text", "SymphoTea is a game about deciding which social bubble each customer belongs to. This can be found out by listening to their inner part of a symphony and their persona. This way you can serve them the perfect match bubble tea.", ""),
-            new Portfolio.TimelineObj("Text", "2D Art", "", true),
+            new Portfolio.TimelineObj("Text", "SymphoTea is a game about deciding which social bubble each customer belongs to. This can be found out by listening to their inner part of a symphony and their persona. This way you can serve them the perfect match bubble tea. \n\n SympoTea was designed as part of the Global Game Jam 2025. The theme was 'Bubbles' and as an additional challange our team incoorporated two classical pieces which were provided to us.", ""),
+            new Portfolio.TimelineObj("Text", "2D Art \n• I painted 2D art assets inlcuding the characters", "", true),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/tea3.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/tea4.png"),
@@ -367,10 +368,11 @@ var Portfolio;
         }
         let egyptObjects = [
             new Portfolio.TimelineObj("Text", "Fall of Egypt: The Last City", ""),
-            new Portfolio.TimelineObj("Text", "Fall of Egypt: The Last City is a Cooperative city-builder during a zombie apocalypse in a snow covered, ancient Egypt, where players, who take control of unique factions, have to work together to find a way to end the zombie onslaught before their city dies out.", ""),
-            new Portfolio.TimelineObj("Text", "Lead Game Design", "", true),
-            new Portfolio.TimelineObj("Text", "2D Art", "", true),
-            new Portfolio.TimelineObj("Text", "Narrative Design", "", true),
+            new Portfolio.TimelineObj("Text", "Fall of Egypt: The Last City is a Cooperative city-builder during a zombie apocalypse in a snow covered, ancient Egypt, where players, who take control of unique factions, have to work together to find a way to end the zombie onslaught before their city dies out. \n\n Fall of Egypt is the first board game we designed as part of our studies. In six weeks we went from a rough idea for a game to a heavily playtested and simulated, high quality prototype which is fun to play.", ""),
+            new Portfolio.TimelineObj("Text", "Lead Game Design \n• Designed the major game mechanics and play patterns\n• Desigined specific features for player factions and buildings\n• Designed the progression system\n• Lead group meetings to discuss game design questions and directions", "", true),
+            new Portfolio.TimelineObj("Text", "2D Art \n• Painted the box art illustration\n• Painted the board art illustration\n• Designed and created the engraved wood tokens\n• Assisted other members in their 2D and 3D art related tasks", "", true),
+            new Portfolio.TimelineObj("Text", "Narrative Design \n• Created the rough narrative outline for the setting of the game\n• Wrote the narrative descriptions for the event cards", "", true),
+            new Portfolio.TimelineObj("Text", "TypeScript Programming\n• Programmed simulations for game systems that could run thousands\nof games and collect valuable data used for balancing", "", true),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/e1.JPG"),
             new Portfolio.TimelineObj("Image", "", "img/e4.JPG"),
@@ -409,10 +411,11 @@ var Portfolio;
         }
         let resonanceObjects = [
             new Portfolio.TimelineObj("Text", "Resonance", ""),
-            new Portfolio.TimelineObj("Text", "Resonance is a sound puzzle game in which the player has to listen to the sound of obstacles and recreate the sound using their sound orb by bouncing it off the environment in the correct combination.", ""),
-            new Portfolio.TimelineObj("Text", "Lead Game Design", "", true),
-            new Portfolio.TimelineObj("Text", "Level Design", "", true),
-            new Portfolio.TimelineObj("Text", "Blueprint Programming", "", true),
+            new Portfolio.TimelineObj("Text", "Resonance is a sound puzzle game in which the player has to listen to the sound of obstacles and recreate the sound using their sound orb by bouncing it off the environment in the correct combination. \n\n Resonance is an audio game we designed as part of the Sound2 course in two weeks. The goal was to create a game you can only beat by listening to audio cues and to make it accessible to visually impaired players.", ""),
+            new Portfolio.TimelineObj("Text", "Lead Game Design \n• Designed and pitched the general game mechanics and play patterns", "", true),
+            new Portfolio.TimelineObj("Text", "Level Design\n• Designed the level layout using a modular room system\n• Designed enviornmental puzzles\n• Furnished the level with assets we got from the asset store", "", true),
+            new Portfolio.TimelineObj("Text", "Blueprint Programming\n• Implemented the basic gameplay functions and interactions using blueprints", "", true),
+            new Portfolio.TimelineObj("Text", "Sound Design\n• Created sounds using Ableton Live\n• Implemented sounds using FMOD", "", true),
             new Portfolio.TimelineObj("Text", "Unreal Engine 5", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/6.png"),
             new Portfolio.TimelineObj("Image", "", "img/1.png"),
