@@ -41,14 +41,32 @@
 }
 
 #col_left2,
-#col_left4,
-#col_left6 {
+#col_left4{
     margin-top: 15px;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     flex-direction: column;
-    align-self: left;
+    align-self: self-start;
+    align-content: left;
+    width: 46.5%;
+    left: 2.5%;
+    height: auto;
+    background-color: transparent;
+    top: 2%;
+    z-index: 2;
+    color: whitesmoke;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+#col_left6 {
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    align-self: self-start;
     align-content: left;
     width: 46.5%;
     left: 2.5%;
@@ -278,11 +296,12 @@ iframe {
 #vid5,
 #vid7 {
     right: 4.5%;
-
+    align-self: self-start;
 }
 
 #vid2,
 #vid4,
 #vid6 {
     right: 54.5%;
+    align-self: self-start;
 }
