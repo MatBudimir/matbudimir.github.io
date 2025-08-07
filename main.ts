@@ -209,7 +209,7 @@ namespace Portfolio {
 
         // Timeline objects
         let guideObjects: Portfolio.TimelineObj[] = [
-             new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses", ""),
+            new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses", ""),
             new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses offers players and Dungeon Masters the option to play as various cursed creatures from pop culture and Dungeons & Dragons lore. It also features a new original race: the Ashen. More than just providing stats and numbers, this book also expands on the theme of some of these creatures and adds character options that are thematically appropriate. Dungeon Masters also get monsters to use, that not only expand on the cursed creatures, but also add inspiration for adventures and stories. \n\n Ishavar's Guide to Curses was my first official foray into game design, and what ultimately got me interested in pursuing it as a career.", ""),
             new Portfolio.TimelineObj("Text", "Game Design \n• Created stats for Races, Sub-classes, and Backgrounds\n• Created stat blocks for Monsters\n• Created special rules and roll tables for curses and blessings", "", true),
             new Portfolio.TimelineObj("Text", "2D Art \n• Cover Illustration\n• Character and Monster Illustrations\n• 2D Background Environments", "", true),
@@ -256,7 +256,7 @@ namespace Portfolio {
         }
 
         let unseenObjects: Portfolio.TimelineObj[] = [
-             new Portfolio.TimelineObj("Text", "Unseen", ""),
+            new Portfolio.TimelineObj("Text", "Unseen", ""),
             new Portfolio.TimelineObj("Text", "Unseen is a 2D platformer set in a plague ridden Prague in 1349, with horror elements in which you have to collect eyes to increase your radius of vision and to see hidden things in the world. Special eyes change your perception of the world and let you see new and different things. The focus is on platforming, solving puzzles, and the story. \n\n Unseen was my first atempt at a digital video game prototype. I started work on it without any prior experience with game engines or programming.", ""),
             new Portfolio.TimelineObj("Text", "Game Design \n• Designed the fundamental game mechanics: Player's raidus of visibility increasing with the number of basic eyes collected & special eyes which unlock previously hidden objects in the world", "", true),
             new Portfolio.TimelineObj("Text", "2D Art & Animation \n• Painted 2D art assets \n• Painted animations for the character and enemies", "", true),
@@ -313,6 +313,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Text", "Blueprint Programming \n• I worked on several functions including: Button inputs and UI displays, FMOD and Sound implementation", "", true),
             new Portfolio.TimelineObj("Text", "Sound \n• Composed an atmospheric ambient sound\n• Created and mixed various sounds part of the game, including: doors, pickups, and footsteps", "", true),
             new Portfolio.TimelineObj("Text", "Unreal Engine 5", "", false, true),
+            new Portfolio.TimelineObj("Text", "Ableton Live & FMOD", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/d2.png"),
             new Portfolio.TimelineObj("Image", "", "img/d1.png"),
             new Portfolio.TimelineObj("Image", "", "img/d3.png"),
@@ -457,6 +458,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Text", "Blueprint Programming\n• Implemented the basic gameplay functions and interactions using blueprints", "", true),
             new Portfolio.TimelineObj("Text", "Sound Design\n• Created sounds using Ableton Live\n• Implemented sounds using FMOD", "", true),
             new Portfolio.TimelineObj("Text", "Unreal Engine 5", "", false, true),
+            new Portfolio.TimelineObj("Text", "Ableton Live & FMOD", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/6.png"),
             new Portfolio.TimelineObj("Image", "", "img/1.png"),
             new Portfolio.TimelineObj("Image", "", "img/3.png"),
@@ -497,12 +499,14 @@ namespace Portfolio {
 
         let p3Objects: Portfolio.TimelineObj[] = [
             new Portfolio.TimelineObj("Text", "Diceonomicon", ""),
-            new Portfolio.TimelineObj("Text", "A dice-builder from hell. Collect souls, demons and more dice to fight the evil manifestations of the seven deadly sins. And always remember: if you are going through hell, keep going. Diceonomicon is a turn-based roguelike game with a focus on dicebuilding. To progress the players have to collect demon companions called Implings to fight for them, which they command using their bag of dice. The game takes place in a fantastical vibrant hell, inspired by ragtime, jazz and prohibition era America. It draws inspiration from different cultures and underworld representations.", ""),
-            new Portfolio.TimelineObj("Text", "Game Design", "", true),
-            new Portfolio.TimelineObj("Text", "2D Art", "", true),
-            new Portfolio.TimelineObj("Text", "C# Programming", "", true),
-            new Portfolio.TimelineObj("Text", "Project Management", "", true),
+            new Portfolio.TimelineObj("Text", "A dice-builder from hell. Collect souls, demons and more dice to fight the evil manifestations of the seven deadly sins. And always remember: if you are going through hell, keep going. Diceonomicon is a turn-based roguelike game with a focus on dicebuilding. To progress the players have to collect demon companions called Implings to fight for them, which they command using their bag of dice. The game takes place in a fantastical vibrant hell, inspired by ragtime, jazz and prohibition era America. It draws inspiration from different cultures and underworld representations. \n\n Diceonomicon was our end of third semester project. The only limitation was that it had to be a digital game. The main focus for our team was to design a game that we can complete with our skills, and is fun to play.", ""),
+            new Portfolio.TimelineObj("Text", "Game Design \n• Designed and pitched the core game concept which consists of: Turn-based strategy and deck-building, using a deck of dice to create powerful combinations, and collecting demons with unique abilities\n• Designed game content including Impling characters, dice effects, and dice slot effects", "", true),
+            new Portfolio.TimelineObj("Text", "2D Art \n• Painted Impling character designs and illustrations\n• Painted UI elements for the combat scene\n• Painted concept art and mockups", "", true),
+            new Portfolio.TimelineObj("Text", "C# Programming\n• Programmed some of the features and combat algorithms", "", true),
+            new Portfolio.TimelineObj("Text", "Project Management\n• Planned out tasks week by week and assigned tasks to reach our goals", "", true),
             new Portfolio.TimelineObj("Text", "Unity", "", false, true),
+            new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
+            new Portfolio.TimelineObj("Text", "FMOD", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/Prototype.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/Mockup.png"),
             new Portfolio.TimelineObj("Image", "", "img/Screenshot.png"),

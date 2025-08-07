@@ -19,6 +19,7 @@
     display: flex;
     justify-content: flex-end;
     pointer-events: none;
+    margin-top: 2%;
 }
 
 #col_left,
@@ -53,7 +54,7 @@
     left: 2.5%;
     height: auto;
     background-color: transparent;
-    top: 2%;
+    top: 8%;
     z-index: 2;
     color: whitesmoke;
     margin-right: auto;
@@ -72,7 +73,7 @@
     left: 2.5%;
     height: auto;
     background-color: transparent;
-    top: 2%;
+    top: 8%;
     z-index: 2;
     color: whitesmoke;
     margin-right: auto;
