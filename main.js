@@ -213,10 +213,10 @@ var Portfolio;
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 if (obj.skill === true) {
-                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.9)";
                 }
                 if (obj.tool === true) {
-                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                    contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
                 }
                 colLeft.appendChild(contentContainer);
             }
@@ -259,10 +259,10 @@ var Portfolio;
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 if (obj.skill === true) {
-                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.9)";
                 }
                 if (obj.tool === true) {
-                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                    contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
                 }
                 colRight.appendChild(contentContainer);
             }
@@ -309,10 +309,10 @@ var Portfolio;
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 if (obj.skill === true) {
-                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.9)";
                 }
                 if (obj.tool === true) {
-                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                    contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
                 }
                 colLeft.appendChild(contentContainer);
             }
@@ -349,10 +349,10 @@ var Portfolio;
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 if (obj.skill === true) {
-                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.9)";
                 }
                 if (obj.tool === true) {
-                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                    contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
                 }
                 colRight.appendChild(contentContainer);
             }
@@ -392,10 +392,10 @@ var Portfolio;
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 if (obj.skill === true) {
-                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.9)";
                 }
                 if (obj.tool === true) {
-                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                    contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
                 }
                 colLeft.appendChild(contentContainer);
             }
@@ -436,10 +436,10 @@ var Portfolio;
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 if (obj.skill === true) {
-                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.9)";
                 }
                 if (obj.tool === true) {
-                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                    contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
                 }
                 colRight.appendChild(contentContainer);
             }
@@ -478,10 +478,10 @@ var Portfolio;
                 contentContainer.innerText = obj.text;
                 contentContainer.id = "text-item";
                 if (obj.skill === true) {
-                    contentContainer.style.background = "rgba(30, 60, 40, 0.6)";
+                    contentContainer.style.background = "rgba(30, 60, 40, 0.9)";
                 }
                 if (obj.tool === true) {
-                    contentContainer.style.background = "rgba(20, 40, 30, 0.6)";
+                    contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
                 }
                 colLeft.appendChild(contentContainer);
             }
