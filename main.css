@@ -16,10 +16,9 @@
     width: 100%;
     background-color: transparent;
     display: inline-flex;
-    justify-content:end;
+    justify-content: center;
     pointer-events: none;
     margin-top: 2%;
-    align-items: stretch
 }
 
 
@@ -128,7 +127,7 @@
     min-width: 33%;
     width: auto;
     position: relative;
- box-shadow: 4px 6px black;
+    box-shadow: 4px 6px black;
     border-width: 2px;
     color: whitesmoke;
 }
@@ -279,13 +278,13 @@ iframe {
 #vid1,
 #vid3,
 #vid5,
-#vid7 {
-    align-self: self-end;
-}
-
+#vid7,
 #vid2,
 #vid4,
-#vid6 {
-    right: 54.5%;
-    align-self: self-start;
+#vid6  {
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 5%;
 }
