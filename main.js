@@ -466,6 +466,7 @@ var Portfolio;
             new Portfolio.TimelineObj("Text", "FMOD", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/Mockup.png"),
             new Portfolio.TimelineObj("Image", "", "img/Screenshot.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice7.png"),
             new Portfolio.TimelineObj("Image", "", "img/dice3.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/dice2.png"),
             new Portfolio.TimelineObj("Image", "", "img/dice1.jpg"),
@@ -493,7 +494,7 @@ var Portfolio;
             else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.225}px`;
+                img.style.width = `${window.innerWidth * 0.15}px`;
                 img.style.height = "auto";
                 toggleImageSize(img);
                 contentContainer.appendChild(img);

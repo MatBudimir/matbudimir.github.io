@@ -80,8 +80,7 @@
     margin-right: 0;
 }
 
-#col_right3,
-#col_right7 {
+#col_right3{
     margin-top: 15px;
     position: relative;
     display: grid;
@@ -99,7 +98,8 @@
     margin-right: 0;
 }
 
-#col_right5{
+#col_right5,
+#col_right7 {
     margin-top: 15px;
     position: relative;
     display: grid;
