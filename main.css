@@ -14,7 +14,7 @@
 #row7 {
     position: relative;
     width: 100%;
-    height: fit-content;
+    height:max-content;
     background-color: transparent;
     display: flex;
     justify-content: flex-end;
