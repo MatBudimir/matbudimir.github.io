@@ -14,28 +14,29 @@
 #row7 {
     position: relative;
     width: 100%;
-    height:max-content;
     background-color: transparent;
     display: inline-flex;
-    justify-content: flex-end;
+    justify-content:end;
     pointer-events: none;
     margin-top: 2%;
+    align-items: stretch
 }
+
+
 
 #col_left,
 #col_left3,
 #col_left5,
 #col_left7 {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-self: right;
     text-align: left;
-    left: 8%;
-    width: 40.5%;
-    height: max-content;
+    left: 2.5%;
+    width: 46.5%;
     background-color: transparent;
-    top: 8%;
+    top: 5%;
     z-index: -1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: whitesmoke;
@@ -48,13 +49,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     flex-direction: column;
-    align-self: self-start;
+    align-self: right;
     align-content: left;
     width: 46.5%;
     left: 2.5%;
     height: max-content;
     background-color: transparent;
-    top: 8%;
     z-index: 2;
     color: whitesmoke;
     margin-right: auto;
@@ -67,13 +67,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
-    align-self: self-start;
+    align-self: right;
     align-content: left;
     width: 46.5%;
     left: 2.5%;
     height: max-content;
     background-color: transparent;
-    top: 8%;
     z-index: 2;
     color: whitesmoke;
     margin-right: auto;
@@ -95,7 +94,6 @@
     width: 46.5%;
     height: max-content;
     background-color: transparent;
-    top: 2%;
     z-index: 2;
     color: whitesmoke;
     margin-left: auto;
@@ -169,7 +167,7 @@ body {
     max-width: 100%;
     width: fit-content;
     align-self: flex-end;
-    height: fit-content;
+    height: min-content;
 }
 
 #text-item {
@@ -282,8 +280,7 @@ iframe {
 #vid3,
 #vid5,
 #vid7 {
-    right: 4.5%;
-    align-self: self-start;
+    align-self: self-end;
 }
 
 #vid2,
