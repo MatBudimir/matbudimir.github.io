@@ -265,7 +265,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/unseen_0.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_2.png"),
-            new Portfolio.TimelineObj("Image", "", "img/unseen_11.png"),
+            //new Portfolio.TimelineObj("Image", "", "img/unseen_11.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_4.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_3.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_1.png"),
@@ -293,7 +293,7 @@ namespace Portfolio {
             } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
 
                 toggleImageSize(img);
@@ -348,7 +348,7 @@ namespace Portfolio {
             } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
 
                 toggleImageSize(img);
@@ -366,8 +366,8 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Text", "2D Art \n• I painted 2D art assets inlcuding the characters", "", true),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/tea3.jpg"),
-            new Portfolio.TimelineObj("Image", "", "img/tea4.png"),
-            new Portfolio.TimelineObj("Image", "", "img/tea5.png"),
+            //new Portfolio.TimelineObj("Image", "", "img/tea4.png"),
+            //new Portfolio.TimelineObj("Image", "", "img/tea5.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea1.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea6.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea2.png"),
@@ -386,13 +386,13 @@ namespace Portfolio {
                     contentContainer.style.background = "rgba(30, 60, 40, 0.9)";
                 }
                 if (obj.tool === true) {
-                   contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
+                    contentContainer.style.background = "rgba(20, 40, 50, 0.9)";
                 }
                 colRight.appendChild(contentContainer);
             } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
 
                 toggleImageSize(img);
@@ -507,9 +507,14 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Text", "Unity", "", false, true),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Text", "FMOD", "", false, true),
-            new Portfolio.TimelineObj("Image", "", "img/Prototype.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/Mockup.png"),
             new Portfolio.TimelineObj("Image", "", "img/Screenshot.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice3.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/dice2.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice1.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/dice4.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice5.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice6.png"),
             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/avDXDpk1lAY"),
         ];
 
@@ -531,7 +536,7 @@ namespace Portfolio {
             } else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
 
                 toggleImageSize(img);

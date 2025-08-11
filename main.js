@@ -241,7 +241,7 @@ var Portfolio;
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/unseen_0.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_2.png"),
-            new Portfolio.TimelineObj("Image", "", "img/unseen_11.png"),
+            //new Portfolio.TimelineObj("Image", "", "img/unseen_11.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_4.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_3.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_1.png"),
@@ -269,7 +269,7 @@ var Portfolio;
             else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
                 toggleImageSize(img);
                 contentContainer.appendChild(img);
@@ -319,7 +319,7 @@ var Portfolio;
             else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
                 toggleImageSize(img);
                 contentContainer.appendChild(img);
@@ -333,8 +333,8 @@ var Portfolio;
             new Portfolio.TimelineObj("Text", "2D Art \n• I painted 2D art assets inlcuding the characters", "", true),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Image", "", "img/tea3.jpg"),
-            new Portfolio.TimelineObj("Image", "", "img/tea4.png"),
-            new Portfolio.TimelineObj("Image", "", "img/tea5.png"),
+            //new Portfolio.TimelineObj("Image", "", "img/tea4.png"),
+            //new Portfolio.TimelineObj("Image", "", "img/tea5.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea1.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea6.png"),
             new Portfolio.TimelineObj("Image", "", "img/tea2.png"),
@@ -359,7 +359,7 @@ var Portfolio;
             else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
                 toggleImageSize(img);
                 contentContainer.appendChild(img);
@@ -464,9 +464,14 @@ var Portfolio;
             new Portfolio.TimelineObj("Text", "Unity", "", false, true),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, true),
             new Portfolio.TimelineObj("Text", "FMOD", "", false, true),
-            new Portfolio.TimelineObj("Image", "", "img/Prototype.jpg"),
             new Portfolio.TimelineObj("Image", "", "img/Mockup.png"),
             new Portfolio.TimelineObj("Image", "", "img/Screenshot.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice3.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/dice2.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice1.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/dice4.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice5.png"),
+            new Portfolio.TimelineObj("Image", "", "img/dice6.png"),
             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/avDXDpk1lAY"),
         ];
         for (let obj of p3Objects) {
@@ -488,7 +493,7 @@ var Portfolio;
             else if (obj.type === "Image") {
                 const img = document.createElement("img");
                 img.src = obj.img;
-                img.style.width = `${window.innerWidth * 0.15}px`;
+                img.style.width = `${window.innerWidth * 0.225}px`;
                 img.style.height = "auto";
                 toggleImageSize(img);
                 contentContainer.appendChild(img);
