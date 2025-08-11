@@ -501,7 +501,7 @@ var Portfolio;
             const allObjects = [...guideObjects, ...unseenObjects, ...deadObjects, ...symphoObjects, ...egyptObjects, ...p3Objects];
             for (const obj of allObjects) {
                 const rect = obj.element.getBoundingClientRect();
-                const isVisible = rect.top >= -window.innerHeight / 5 && rect.bottom <= window.innerHeight;
+                const isVisible = rect.top >= -window.innerHeight / 5 && rect.bottom <= window.innerHeight * 1.1;
                 isVisible ? obj.fadeIn() : obj.fadeOut();
             }
         }

@@ -16,7 +16,7 @@
     width: 100%;
     height:max-content;
     background-color: transparent;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-end;
     pointer-events: none;
     margin-top: 2%;
