@@ -33,7 +33,7 @@
     text-align: left;
     left: 8%;
     width: 40.5%;
-    height: auto;
+    height: max-content;
     background-color: transparent;
     top: 8%;
     z-index: -1;
@@ -52,7 +52,7 @@
     align-content: left;
     width: 46.5%;
     left: 2.5%;
-    height: auto;
+    height: max-content;
     background-color: transparent;
     top: 8%;
     z-index: 2;
@@ -71,7 +71,7 @@
     align-content: left;
     width: 46.5%;
     left: 2.5%;
-    height: auto;
+    height: max-content;
     background-color: transparent;
     top: 8%;
     z-index: 2;
@@ -93,7 +93,7 @@
     align-content: right;
     right: 1.5%;
     width: 46.5%;
-    height: auto;
+    height: max-content;
     background-color: transparent;
     top: 2%;
     z-index: 2;
@@ -111,7 +111,7 @@
     align-items: flex-start;
     align-self: right;
     width: 40.5%;
-    height: auto;
+    height: max-content;
     background-color: transparent;
     z-index: 1;
     color: whitesmoke;
