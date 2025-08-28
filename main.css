@@ -32,6 +32,7 @@
     z-index: -1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: whitesmoke;
+        pointer-events: all;
 }
 
 #col_right,
@@ -70,12 +71,13 @@
     flex-direction: column;
 }
 
-.img3, .img4,
-#img3, #img4
-{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-flex-direction: column;
+.img3,
+.img4,
+#img3,
+#img4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
 }
 
 .header {
@@ -272,6 +274,7 @@ footer {
         -10px 10px 20px rgba(0, 0, 0, 0.8);
     text-align: center;
     justify-self: center;
+    pointer-events: all;
 }
 
 .card-container {
