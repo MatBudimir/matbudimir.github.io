@@ -501,7 +501,6 @@ namespace Portfolio {
                 video.src = obj.img;
                 video.width = videoWidth;
                 video.height = videoHeight;
-
                 vid2.append(video);
             }
         }
@@ -750,7 +749,7 @@ namespace Portfolio {
                 cardContainer.append(cardTitle, cardDescription);
                 cardTitle.append(icon);
 
-         if (obj.team === true) {
+                if (obj.team === true) {
                     cardTitle.innerText = "Team";
                     cardContainer.style.backgroundImage = "linear-gradient(to bottom left, rgba(15, 20, 20, 0.9), rgba(30, 40, 70, 0.9))";
                     cardContainer.style.boxShadow = "inset -2px 2px rgba(30, 40, 70, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
