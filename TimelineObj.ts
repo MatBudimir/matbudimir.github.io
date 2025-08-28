@@ -1,25 +1,28 @@
 namespace Portfolio {
     export class TimelineObj {
-        type: string; // "Text" or "Image" or "Skill"
+        type: string; // "Text" or "Image"
         text: string;
         img: string;
-        skill?: boolean;
+        team?: boolean;
+        contribution?: boolean;
         tool?: boolean;
+        team_text?: string;
         element: HTMLDivElement;
 
-        constructor(_type: string, _text: string, _img: string, _skill?: boolean, _tool?:boolean) {
+        constructor(_type: string, _text: string, _img: string, _team?: boolean, _contribution?: boolean, _tool?:boolean, _team_text?:string) {
             this.type = _type;
             this.text = _text;
             this.img = _img;
-            this.skill = _skill;
+            this.team = _team;
+            this.contribution = _contribution;
             this.tool = _tool;
+            this.team_text = _team_text;
             
             if (_type === "Text" || _type === "Image"){
                 this.element = document.createElement("div");
             } else {
                 this.element = document.createElement("iframe");
             }
-
         }
 
         fadeIn() {
