@@ -310,7 +310,7 @@ namespace Portfolio {
             new Portfolio.TimelineObj("Image", "", "img/dice7.png"),
             new Portfolio.TimelineObj("Image", "", "img/dicesheet2.png"),
             new Portfolio.TimelineObj("Image", "", "img/dicesheet.png"),
-            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/avDXDpk1lAY"),
+            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/avDXDpk1lAY?autoplay=1&mute=1"),
 
         ];
 
@@ -390,6 +390,10 @@ namespace Portfolio {
                 vid1.classList.add("visible");
                 const video = document.createElement("iframe");
                 video.src = obj.img;
+                video.setAttribute(
+                    "allow",
+                    "autoplay; encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture"
+                );
                 video.width = videoWidth;
                 video.height = videoHeight;
 
