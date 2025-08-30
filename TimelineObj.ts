@@ -6,10 +6,11 @@ namespace Portfolio {
         team?: boolean;
         contribution?: boolean;
         tool?: boolean;
+        award?:boolean;
         team_text?: string;
         element: HTMLDivElement;
 
-        constructor(_type: string, _text: string, _img: string, _team?: boolean, _contribution?: boolean, _tool?:boolean, _team_text?:string) {
+        constructor(_type: string, _text: string, _img: string, _team?: boolean, _contribution?: boolean, _tool?:boolean, _award?:boolean, _team_text?:string) {
             this.type = _type;
             this.text = _text;
             this.img = _img;
@@ -17,6 +18,7 @@ namespace Portfolio {
             this.contribution = _contribution;
             this.tool = _tool;
             this.team_text = _team_text;
+            this.award = _award;
             
             if (_type === "Text" || _type === "Image"){
                 this.element = document.createElement("div");
@@ -24,6 +26,7 @@ namespace Portfolio {
                 this.element = document.createElement("iframe");
             }
         }
+    
 
         fadeIn() {
             this.element.classList.add("visible");

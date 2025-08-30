@@ -225,7 +225,7 @@ var Portfolio;
     function createGameInfo(vid1, vid2, vid3, vid4, vid5, vid6, vid7) {
         // Game 1: ...
         let game1Objects = [
-            new Portfolio.TimelineObj("Text", "Denise Franz\nFlorine Bienhüls\nJannick Klose\nMatej Budimir", "", true, false, false, "PGame Design, (Lead) Programming, Music\nUI/UX Design\nGame Design, Programming\n(Lead) Game Design, Programming, Art, Project Management"),
+            new Portfolio.TimelineObj("Text", "Denise Franz\nFlorine Bienhüls\nJannick Klose\nMatej Budimir", "", true, false, false, false, "PGame Design, (Lead) Programming, Music\nUI/UX Design\nGame Design, Programming\n(Lead) Game Design, Programming, Art, Project Management"),
             new Portfolio.TimelineObj("Text", "· Designed and pitched the core game concept\n· Discussed, prototyped and playtested multiple versions of the combat system (team)\n· Implemented a number of core gameplay features using C# and Unity\n· Designed and illustrated characters and UI elements (combat)\n· Planned and organized tasks in an agile environment to reach our goals\n· Assisted other team members by learning Unity features and teaching them how to use them", "", false, true),
             new Portfolio.TimelineObj("Text", "A dice-builder from hell. Collect souls, demons and more dice to fight the evil manifestations of the seven deadly sins. And always remember: if you are going through hell, keep going. Diceonomicon is a turn-based roguelike game with a focus on dicebuilding. To progress the players have to collect demon companions called Implings to fight for them, which they command using their bag of dice. The game takes place in a fantastical vibrant hell, inspired by ragtime, jazz and prohibition era America. It draws inspiration from different cultures and underworld representations.", ""),
             new Portfolio.TimelineObj("Text", "Unity, Clip Studio Paint, FMOD", "", false, false, true),
@@ -236,7 +236,7 @@ var Portfolio;
             new Portfolio.TimelineObj("Image", "", "img/dice7.png"),
             new Portfolio.TimelineObj("Image", "", "img/dicesheet2.png"),
             new Portfolio.TimelineObj("Image", "", "img/dicesheet.png"),
-            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/avDXDpk1lAY?autoplay=1&mute=1"),
+            new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/avDXDpk1lAY"),
         ];
         for (let obj of game1Objects) {
             const colLeft = document.getElementById("col_left");
@@ -301,15 +301,15 @@ var Portfolio;
                 vid1.classList.add("visible");
                 const video = document.createElement("iframe");
                 video.src = obj.img;
-                video.setAttribute("allow", "autoplay; encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture");
                 video.width = videoWidth;
                 video.height = videoHeight;
                 vid1.append(video);
             }
         }
         let game2Objects = [
-            new Portfolio.TimelineObj("Text", "Jannick Klose\nMatej Budimir\nYasmin Zahrir", "", true, false, false, "Programming, Accessibility, Sound\n(Lead) Game Design Level Design, Programming, Sound\nProgramming, Accessibility (Menu/Settings)"),
+            new Portfolio.TimelineObj("Text", "Jannick Klose\nMatej Budimir\nYasmin Zahrir", "", true, false, false, false, "Programming, Accessibility, Sound\n(Lead) Game Design Level Design, Programming, Sound\nProgramming, Accessibility (Menu/Settings)"),
             new Portfolio.TimelineObj("Text", "· Designed and pitched the core game concept\n· Designed and implemented the level layout using a modular room system\n· Created simple 3D assets (spike blocks and floor spikes) in Blender\n· Implemented basic gameplay functions and interactions using Unreal Engine 5's Blueprints\n· Created sounds with Ableton Live and implemented them using FMOD", "", false, true, false),
+            new Portfolio.TimelineObj("Text", "Exhibited the game at Gamescom 2025 in Cologne", "", false, false, false, true),
             new Portfolio.TimelineObj("Text", "Resonance is a sound puzzle game in which the player has to listen to the sound of obstacles and recreate the sound using their sound orb by bouncing it off the environment in the correct combination. \n\n Resonance is an audio game we designed as part of the Sound2 course in two weeks. The goal was to create a game you can only beat by listening to audio cues and to make it accessible to visually impaired players.", ""),
             new Portfolio.TimelineObj("Text", "Unreal Engine 5, FMOD, Ableton Live, Blender", "", false, false, true),
             new Portfolio.TimelineObj("Image", "", "img/resgif1.gif"),
@@ -318,8 +318,10 @@ var Portfolio;
             new Portfolio.TimelineObj("Image", "", "img/resgif5.gif"),
             // new Portfolio.TimelineObj("Image", "", "img/6.png"),
             // new Portfolio.TimelineObj("Image", "", "img/1.png"),
-            new Portfolio.TimelineObj("Image", "", "img/3.png"),
-            new Portfolio.TimelineObj("Image", "", "img/4.png"),
+            new Portfolio.TimelineObj("Image", "", "img/gc1.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/gc2.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/gc3.jpg"),
+            new Portfolio.TimelineObj("Image", "", "img/gc4.jpg"),
             // new Portfolio.TimelineObj("Image", "", "img/7.png"),
             // new Portfolio.TimelineObj("Image", "", "img/8.png"),
             new Portfolio.TimelineObj("Video", "", "https://www.youtube.com/embed/r-vaTw5A26A"),
@@ -395,7 +397,7 @@ var Portfolio;
         }
         // Fall of Egypt (2025)
         let game3Objects = [
-            new Portfolio.TimelineObj("Text", "Andi Niederreiter\nMarcel Herbst\nMatej Budimir\nThore Stullich", "", true, false, false, "Game Design, Art\n Game Design, 3D Art\n(Lead) Game Design, Art, Programming, Project Management\nGame Design"),
+            new Portfolio.TimelineObj("Text", "Andi Niederreiter\nMarcel Herbst\nMatej Budimir\nThore Stullich", "", true, false, false, false, "Game Design, Art\n Game Design, 3D Art\n(Lead) Game Design, Art, Programming, Project Management\nGame Design"),
             new Portfolio.TimelineObj("Text", "· Designed the key game mechanics and play patterns\n· Lead group meetings to discuss game design problems and questions\n· Painted the box and game board illustrations\n· Designed and engraved wooden game tokens\n· Assisted other members in their 2D and 3D art related tasks\n· Wrote the narrative outline for the setting, as well as the descriptions for event cards\n· Programmed simulations for the game to collect data", "", false, true, false),
             new Portfolio.TimelineObj("Text", "Fall of Egypt: The Last City is a Cooperative city-builder during a zombie apocalypse in a snow covered, ancient Egypt, where players, who take control of unique factions, have to work together to find a way to end the zombie onslaught before their city dies out. \n\n Fall of Egypt is the first board game we designed as part of our studies. In six weeks we went from a rough idea for a game to a heavily playtested and simulated, high quality prototype which is fun to play.", ""),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint, Adobe InDesign", "", false, false, true),
@@ -455,6 +457,13 @@ var Portfolio;
                     icon.src = "icon_tools.png";
                     cardTitle.append(icon);
                 }
+                if (obj.award === true) {
+                    cardTitle.innerText = "Achievement";
+                    cardContainer.style.backgroundImage = "linear-gradient(to bottom left, rgba(25, 20, 20, 0.9), rgba(40, 30, 10, 0.9))";
+                    cardContainer.style.boxShadow = "inset -2px 2px rgba(40, 30, 10, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
+                    icon.src = "icon_award.png";
+                    cardTitle.append(icon);
+                }
                 colLeft.appendChild(cardContainer);
                 obj.element = cardContainer;
             }
@@ -479,8 +488,9 @@ var Portfolio;
             }
         }
         let game4Objects = [
-            new Portfolio.TimelineObj("Text", "Adam Hancock\nMatej Budimir", "", true, false, false, "Editor\nGame Design, Art, Writing"),
+            new Portfolio.TimelineObj("Text", "Adam Hancock\nMatej Budimir", "", true, false, false, false, "Editor\nGame Design, Art, Writing"),
             new Portfolio.TimelineObj("Text", "· Designed features and attributes for player races, sub-classes, and backgrounds\n· Designed stats and behaviour of monsters\n· Designed special rules and roll tables for curses and blessings\n· Painted the book cover and character illustrations, as well as other miscelanious illustrations found in the book\n· Wrote descriptions for monsters, cultures, and classes\n· Wrote rule texts for features described in the book", "", false, true, false),
+            new Portfolio.TimelineObj("Text", "Reached the GOLD Bestseller status on the DMsGuild", "", false, false, false, true),
             new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses offers players and Dungeon Masters the option to play as various cursed creatures from pop culture and Dungeons & Dragons lore. It also features a new original race: the Ashen. More than just providing stats and numbers, this book also expands on the theme of some of these creatures and adds character options that are thematically appropriate. Dungeon Masters also get monsters to use, that not only expand on the cursed creatures, but also add inspiration for adventures and stories. \n\n Ishavar's Guide to Curses was my first official foray into game design, and what ultimately got me interested in pursuing it as a career.", ""),
             // new Portfolio.TimelineObj("Text", "Ishavar's Guide to Curses offers players and Dungeon Masters the option to play as various cursed creatures from pop culture and Dungeons & Dragons lore. It also features a new original race: the Ashen. More than just providing stats and numbers, this book also expands on the theme of some of these creatures and adds character options that are thematically appropriate. Dungeon Masters also get monsters to use, that not only expand on the cursed creatures, but also add inspiration for adventures and stories. \n\n Ishavar's Guide to Curses was my first official foray into game design, and what ultimately got me interested in pursuing it as a career.", ""),
             // new Portfolio.TimelineObj("Text", "Game Design \n• Created stats for Races, Sub-classes, and Backgrounds\n• Created stat blocks for Monsters\n• Created special rules and roll tables for curses and blessings", "", true),
@@ -550,6 +560,13 @@ var Portfolio;
                     icon.src = "icon_tools.png";
                     cardTitle.append(icon);
                 }
+                if (obj.award === true) {
+                    cardTitle.innerText = "Achievement";
+                    cardContainer.style.backgroundImage = "linear-gradient(to bottom left, rgba(15, 20, 20, 0.9), rgba(10, 25, 20, 0.9))";
+                    cardContainer.style.boxShadow = "inset -2px 2px rgba(10, 25, 20, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
+                    icon.src = "icon_award.png";
+                    cardTitle.append(icon);
+                }
                 colLeft.appendChild(cardContainer);
                 obj.element = cardContainer;
             }
@@ -574,7 +591,7 @@ var Portfolio;
             }
         }
         let game5Objects = [
-            new Portfolio.TimelineObj("Text", "Christian Friedrich Bauer\nFlorine Bienhüls\nJustin Frei\nMatej Budimir\nMikhail Ko", "", true, false, false, "Narrative Design, Art\nNarrative Design, UI\nGame Design\nLevel Design, Concept Art, UI\nGame Design"),
+            new Portfolio.TimelineObj("Text", "Christian Friedrich Bauer\nFlorine Bienhüls\nJustin Frei\nMatej Budimir\nMikhail Ko", "", true, false, false, false, "Narrative Design, Art\nNarrative Design, UI\nGame Design\nLevel Design, Concept Art, UI\nGame Design"),
             new Portfolio.TimelineObj("Text", "· Designed the general layout for the spaceship with modular rooms\n· Kitbashed 3D assets provided to us to create an environment fitting the narrative direction\n· Drew concept art for the spaceship enterior testing different atmospheres\n· Implemented several functions including: Button UI displays, FMOD and Sound implementation\n· Composed atmospheric background music and radio songs\n· Created and mixed various sounds part for the game, including: doors, pickups, and footsteps", "", false, true, false),
             new Portfolio.TimelineObj("Text", "Dead Man's Call is a first-person narrative puzzle game set in the far future. The game takes place in the spaceship “Nightlight” crewed by three suspicious individuals. The aim is to find out what happened to the captain and his medical robot, H3A1_TH, from whom you received a distress call. To solve the mystery the player must explore the spaceship and complete puzzles to gather clues and find keys which help them solve the case. \n\n Dead Man's Call was the first project we did at Furtwangen University as part of the Entry Project course. With a total of five team members we ventured into the shallow waters of Unreal Engine's blueprint system and applied agile work methods to create a playable prototype in two weeks", ""),
             new Portfolio.TimelineObj("Text", "Unreal Engine 5, Ableton Live, FMOD", "", false, false, true),
@@ -661,7 +678,7 @@ var Portfolio;
             }
         }
         let game6Objects = [
-            new Portfolio.TimelineObj("Text", "Matej Budimir\nThomas Brush\nDream Protocol", "", true, false, false, "Game Design, Level Design, Art\n2D Unity Template\nMusic"),
+            new Portfolio.TimelineObj("Text", "Matej Budimir\nThomas Brush\nDream Protocol", "", true, false, false, false, "Game Design, Level Design, Art\n2D Unity Template\nMusic"),
             new Portfolio.TimelineObj("Text", "· Designed and implemented the core game mechanics\n· Painted and designed the 2D Environment and Characters\n· Painted animations for the character and monsters\n· Learned and applied C# Programming basics editing a 2D platforming template project in Unity", "", false, true, false),
             new Portfolio.TimelineObj("Text", "Unseen is a 2D platformer set in a plague ridden Prague in 1349, with horror elements in which you have to collect eyes to increase your radius of vision and to see hidden things in the world. Special eyes change your perception of the world and let you see new and different things. The focus is on platforming, solving puzzles, and the story. \n\n Unseen was my first atempt at a digital video game prototype. I started work on it without any prior experience with game engines or programming.", ""),
             new Portfolio.TimelineObj("Text", "Unity, Photoshop, Clip Studio Paint", "", false, false, true),
@@ -744,7 +761,7 @@ var Portfolio;
             }
         }
         let game7Objects = [
-            new Portfolio.TimelineObj("Text", "Denise\nDennis\nFlorine\nMarcel\nMarkus\nMatej\nMoritz\nTimo\nTimon", "", true, false, false, "Game Design\nProgramming\nGame Design\nSound\nSound\nArt\nProgramming\nProgramming\nSound"),
+            new Portfolio.TimelineObj("Text", "Denise\nDennis\nFlorine\nMarcel\nMarkus\nMatej\nMoritz\nTimo\nTimon", "", true, false, false, false, "Game Design\nProgramming\nGame Design\nSound\nSound\nArt\nProgramming\nProgramming\nSound"),
             new Portfolio.TimelineObj("Text", "· Painted 2D art characters and level assets", "", false, true, false),
             new Portfolio.TimelineObj("Text", "SymphoTea is a game about deciding which social bubble each customer belongs to. This can be found out by listening to their inner part of a symphony and their persona. This way you can serve them the perfect match bubble tea. \n\n SympoTea was designed as part of the Global Game Jam 2025. The theme was 'Bubbles' and as an additional challange our team incoorporated two classical pieces which were provided to us.", ""),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, false, true),
