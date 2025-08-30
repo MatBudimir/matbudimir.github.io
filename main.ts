@@ -842,7 +842,7 @@ namespace Portfolio {
         }
 
         let game6Objects: Portfolio.TimelineObj[] = [
-            new Portfolio.TimelineObj("Text", "Matej Budimir\nThomas Brush\nDream Protocol", "", true, false, false, false, "Game Design, Level Design, Art\n2D Unity Template\nMusic"),
+            new Portfolio.TimelineObj("Text", "Matej Budimir", "", true, false, false, false, "Game Design, Level Design, 2D Art"),
             new Portfolio.TimelineObj("Text", "· Designed and implemented the core game mechanics\n· Painted and designed the 2D Environment and Characters\n· Painted animations for the character and monsters\n· Learned and applied C# Programming basics editing a 2D platforming template project in Unity", "", false, true, false),
             new Portfolio.TimelineObj("Text", "Unseen is a 2D platformer set in a plague ridden Prague in 1349, with horror elements in which you have to collect eyes to increase your radius of vision and to see hidden things in the world. Special eyes change your perception of the world and let you see new and different things. The focus is on platforming, solving puzzles, and the story. \n\n Unseen was my first atempt at a digital video game prototype. I started work on it without any prior experience with game engines or programming.", "",),
             new Portfolio.TimelineObj("Text", "Unity, Photoshop, Clip Studio Paint", "", false, false, true),
