@@ -372,6 +372,13 @@ var Portfolio;
                     icon.src = "icon_tools.png";
                     cardTitle.append(icon);
                 }
+                if (obj.award === true) {
+                    cardTitle.innerText = "Achievement";
+                    cardContainer.style.backgroundImage = "linear-gradient(to bottom left, rgba(15, 20, 20, 0.9), rgba(50, 30, 20, 0.9))";
+                    cardContainer.style.boxShadow = "inset -2px 2px rgba(50, 30, 20, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
+                    icon.src = "icon_award.png";
+                    cardTitle.append(icon);
+                }
                 colLeft.appendChild(cardContainer);
                 obj.element = cardContainer;
             }
@@ -562,8 +569,8 @@ var Portfolio;
                 }
                 if (obj.award === true) {
                     cardTitle.innerText = "Achievement";
-                    cardContainer.style.backgroundImage = "linear-gradient(to bottom left, rgba(15, 20, 20, 0.9), rgba(10, 25, 20, 0.9))";
-                    cardContainer.style.boxShadow = "inset -2px 2px rgba(10, 25, 20, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
+                    cardContainer.style.backgroundImage = "linear-gradient(to bottom left, rgba(15, 20, 20, 0.9), rgba(15, 25, 20, 0.9))";
+                    cardContainer.style.boxShadow = "inset -2px 2px rgba(15, 25, 20, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
                     icon.src = "icon_award.png";
                     cardTitle.append(icon);
                 }
