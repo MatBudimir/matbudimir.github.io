@@ -24,7 +24,7 @@ var Portfolio;
         const about = document.createElement("div");
         about.className = "header";
         about.id = "descr";
-        about.innerText = "Game Designer with a background in visual arts, on a journey to create engaging games and meaningful experiences.";
+        about.innerText = "Game Designer with a background in visual arts, on a journey to create engaging games and meaningful experiences.\n\nAlways aiming for the stars.";
         const email = document.createElement("div");
         email.className = "header";
         email.id = "mail";
