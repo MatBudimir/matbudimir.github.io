@@ -687,7 +687,7 @@ var Portfolio;
         let game6Objects = [
             new Portfolio.TimelineObj("Text", "Matej Budimir", "", true, false, false, false, "Game Design, Level Design, 2D Art"),
             new Portfolio.TimelineObj("Text", "· Designed and implemented the core game mechanics\n· Painted and designed the 2D Environment and Characters\n· Painted animations for the character and monsters\n· Learned and applied C# Programming basics editing a 2D platforming template project in Unity", "", false, true, false),
-            new Portfolio.TimelineObj("Text", "Unseen is a 2D platformer set in a plague ridden Prague in 1349, with horror elements in which you have to collect eyes to increase your radius of vision and to see hidden things in the world. Special eyes change your perception of the world and let you see new and different things. The focus is on platforming, solving puzzles, and the story. \n\n Unseen was my first atempt at a digital video game prototype. I started work on it without any prior experience with game engines or programming.", ""),
+            new Portfolio.TimelineObj("Text", "Unseen is a 2D platformer set in a plague ridden Prague in 1349, with horror elements in which you have to collect eyes to increase your radius of vision and to see hidden things in the world. Special eyes change your perception of the world and let you see new and different things. The focus is on platforming, solving puzzles, and the story. \n\n Unseen was my first attempt at a digital video game prototype. I started work on it without any prior experience with game engines or programming.", ""),
             new Portfolio.TimelineObj("Text", "Unity, Photoshop, Clip Studio Paint", "", false, false, true),
             new Portfolio.TimelineObj("Image", "", "img/unseen_0.png"),
             new Portfolio.TimelineObj("Image", "", "img/unseen_2.png"),
@@ -770,7 +770,7 @@ var Portfolio;
         let game7Objects = [
             new Portfolio.TimelineObj("Text", "Denise\nDennis\nFlorine\nMarcel\nMarkus\nMatej\nMoritz\nTimo\nTimon", "", true, false, false, false, "Game Design\nProgramming\nGame Design\nSound\nSound\nArt\nProgramming\nProgramming\nSound"),
             new Portfolio.TimelineObj("Text", "· Painted 2D art characters and level assets", "", false, true, false),
-            new Portfolio.TimelineObj("Text", "SymphoTea is a game about deciding which social bubble each customer belongs to. This can be found out by listening to their inner part of a symphony and their persona. This way you can serve them the perfect match bubble tea. \n\n SympoTea was designed as part of the Global Game Jam 2025. The theme was 'Bubbles' and as an additional challange our team incoorporated two classical pieces which were provided to us.", ""),
+            new Portfolio.TimelineObj("Text", "SymphoTea is a game about deciding which social bubble each customer belongs to. This can be found out by listening to their inner part of a symphony and their persona. This way you can serve them the perfect match bubble tea. \n\n SympoTea was designed as part of the Global Game Jam 2025. The theme was 'Bubbles' and as an additional challenge our team incorporated two classical pieces which were provided to us.", ""),
             new Portfolio.TimelineObj("Text", "Clip Studio Paint", "", false, false, true),
             new Portfolio.TimelineObj("Image", "", "img/tea3.jpg"),
             //new Portfolio.TimelineObj("Image", "", "img/tea4.png"),
