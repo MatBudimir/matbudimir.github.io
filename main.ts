@@ -345,6 +345,7 @@ namespace Portfolio {
                     cardContainer.style.boxShadow = "inset -2px 2px rgba(60, 30, 40, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
                     cardDescription.style.display = "grid";
                     cardDescription.style.gridTemplateColumns = "repeat(2, auto)";
+                    cardDescription.style.textWrapMode = "nowrap";
 
                     const teamDescription = document.createElement("div");
                     teamDescription.innerText = obj.team_text!;
@@ -449,6 +450,7 @@ namespace Portfolio {
                     cardContainer.style.boxShadow = "inset -2px 2px rgba(90, 65, 30, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
                     cardDescription.style.display = "grid";
                     cardDescription.style.gridTemplateColumns = "repeat(2, auto)";
+                    cardDescription.style.textWrapMode = "nowrap";
 
                     const teamDescription = document.createElement("div");
                     teamDescription.innerText = obj.team_text!;
@@ -557,6 +559,7 @@ namespace Portfolio {
                     cardContainer.style.boxShadow = "inset -2px 2px rgba(60, 60, 25, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
                     cardDescription.style.display = "grid";
                     cardDescription.style.gridTemplateColumns = "repeat(2, auto)";
+                    cardDescription.style.textWrapMode = "nowrap";
 
                     const teamDescription = document.createElement("div");
                     teamDescription.innerText = obj.team_text!;
@@ -678,6 +681,7 @@ namespace Portfolio {
                     cardContainer.style.boxShadow = "inset -2px 2px rgba(30, 60, 40, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
                     cardDescription.style.display = "grid";
                     cardDescription.style.gridTemplateColumns = "repeat(2, auto)";
+                    cardDescription.style.textWrapMode = "nowrap";
 
                     const teamDescription = document.createElement("div");
                     teamDescription.innerText = obj.team_text!;
@@ -789,6 +793,7 @@ namespace Portfolio {
                     cardContainer.style.boxShadow = "inset -2px 2px rgba(30, 40, 70, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
                     cardDescription.style.display = "grid";
                     cardDescription.style.gridTemplateColumns = "repeat(2, auto)";
+                    cardDescription.style.textWrapMode = "nowrap";
 
                     const teamDescription = document.createElement("div");
                     teamDescription.innerText = obj.team_text!;
@@ -888,6 +893,7 @@ namespace Portfolio {
                     cardContainer.style.boxShadow = "inset -2px 2px rgba(30, 50, 50, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
                     cardDescription.style.display = "grid";
                     cardDescription.style.gridTemplateColumns = "repeat(2, auto)";
+                    cardDescription.style.textWrapMode = "nowrap";
 
                     const teamDescription = document.createElement("div");
                     teamDescription.innerText = obj.team_text!;
@@ -985,7 +991,8 @@ namespace Portfolio {
                     cardContainer.style.boxShadow = "inset -2px 2px rgba(60, 30, 60, 0.8), -10px 10px 20px rgba(0, 0, 0, 0.8)";
                     cardDescription.style.display = "grid";
                     cardDescription.style.gridTemplateColumns = "repeat(2, auto)";
-
+                    cardDescription.style.textWrapMode = "nowrap";
+                    
                     const teamDescription = document.createElement("div");
                     teamDescription.innerText = obj.team_text!;
 
